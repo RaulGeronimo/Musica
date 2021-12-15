@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="Pagina web de Musica" content="width=device-width, initial-scale=1" />
+      <link rel="shortcut icon" href="../../images/Inicio/icono.png" type="image/x-icon">
+      <link rel="stylesheet" href="../../assets/css/forma.css">
+   </head>
+   <body>
+      <!--Imagen de Fondo-->
+      <div class="bgded overlay" style="background-image:url('../../images/Grupos//Galeria/');">
+         <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+               <div id="logo" class="fl_left">
+                  <h1><a href="../../index.html">Rock</a></h1>
+               </div>
+               <nav id="mainav" class="fl_right">
+                  <ul class="clear">
+                     <li class="active"><a href="../../index.html">Inicio</a></li>
+                     <li><a href="../IndexGaleria.html">Galeria</a></li>
+                     <li><a href="../IndexArticulos.html">Articulos</a></li>
+                     <li><a href="../IndexCanciones.html">Canciones</a></li>
+                     <li><a href="../IndexAlbums.html">Albums</a></li>
+                     <li><a href="../../IndexGrupos.html">Grupos</a></li>
+                  </ul>
+               </nav>
+            </header>
+         </div>
+         <div id="breadcrumb" class="hoc clear">
+            <a href="../../Musica/"><h6 class="heading">Canciones</h6></a>
+            <ul>
+               <li><a href="">Anterior</a></li>
+               <li><a href="">Siguiente</a></li>
+            </ul>
+            <p class="center">Todas las canciones de .</p>
+         </div>
+      </div>
+      <!--Album-->
+      <div class="wrapper row2">
+         <section id="references" class="hoc container clear">
+            <div class="sectiontitle">
+               <h6 class="heading">Album</h6>
+            </div>
+            <div class="scrollable">
+               <table>
+                  <thead>
+                     <tr>
+                        <th>Canción</th>
+                        <th>Año</th>
+                        <th>Duracion</th>
+                        <th>Reproducir</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Titulo</td>
+                        <td>Año</td>
+                        <td>:</td>
+                        <td>
+                           <audio id="player" src="../../Musica//Canciones/"></audio>
+                           <div>
+                              <button onclick="document.getElementById('player').play()">Play</button><button onclick="document.getElementById('player').pause()">Pausa</button>
+                           </div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <footer class="block center">
+               <a class="btn" href="../../Musica/">Escuchar Album</a>
+            </footer>
+            <a class="btn" href="../Grupos/">Regresar</a>
+         </section>
+      </div>
+
+      <!--Footer-->
+      <div class="wrapper row5">
+         <div id="copyright" class="hoc clear">
+            <p class="fl_left">Proyecto Vacacional - Raúl Gerónimo Herrera - <a target="_blank" href="../../index.html" title="Free Website Templates">Rock</a></p>
+         </div>
+      </div>
+      <!-- Scripts -->
+      <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+      <script src="../../assets/js/jquery.min.js"></script>
+      <script src="../../assets/js/jquery.backtotop.js"></script>
+   </body>
+</html>
