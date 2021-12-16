@@ -556,6 +556,8 @@
 
 #mainav form * {
 	transition: none !important;
+	background-color: rgb(0, 0, 0);
+	color: #fff;
 }
 
 /* Nav */
@@ -1162,8 +1164,11 @@ textarea:focus,
 }
 
 #mainav form select {
-	color: #474747;
-	background-color: #FFFFFF;
+	/* color: #474747;
+	background-color: #FFFFFF; */
+	color: #fdfdfd;
+	background-color: transparent;
+	border-color: #fff;
 }
 
 #breadcrumb a {
