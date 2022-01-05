@@ -299,8 +299,8 @@ h2 {
     margin: 0 0 20px 0;
     font-size: 19px;
     line-height: normal;
-    font-weight: normal;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .heading.nospace {
@@ -311,8 +311,9 @@ h3 {
     margin: 0 0 20px 0;
     font-size: 18px;
     line-height: normal;
-    font-weight: normal;
     text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .heading.nospace {
@@ -325,6 +326,7 @@ h4 {
     line-height: normal;
     font-weight: normal;
     text-transform: capitalize;
+    font-style: italic;
 }
 
 .heading.nospace {
